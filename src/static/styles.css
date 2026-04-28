@@ -132,6 +132,49 @@ button:hover {
   border: 1px solid #bee5eb;
 }
 
+.participants-section {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.participants-list {
+  list-style: disc;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.participants-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 4px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.remove-participant {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 6px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.remove-participant:hover {
+  background-color: rgba(198, 40, 40, 0.1);
+}
+
+.no-participants {
+  color: #777;
+  font-style: italic;
+}
+
 .hidden {
   display: none;
 }
